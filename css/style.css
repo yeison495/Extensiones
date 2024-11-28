@@ -1,0 +1,35 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #E7DAD0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.themed-container {
+    text-align: right;
+    padding: 5px;
+    background-color: #C2AE9F;
+}
+
+.themed-container a {
+    text-decoration: none;
+    color: #434343;
+}
+
+nav {
+    text-shadow: -3px 2px 3px gray ;
+}
+
+footer {
+    text-shadow: -3px 2px 3px gray ;
+    background-color: #D3CBC4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: #434343;
+}
