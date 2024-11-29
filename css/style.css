@@ -1,12 +1,19 @@
 html {
+    font-family: 'Inter';
     min-height: 100%;
     position: relative;
+    background-color: #F3EDE7;
 }
 
 body {
-    background-color: #E7DAD0;
+    font-family: 'Inter';
     margin: 0;
     margin-bottom: 40px;
+}
+
+section {
+    background-color: #F3EDE7;
+    height: auto;
 }
 
 .themed-container {
@@ -32,12 +39,32 @@ body {
     text-align: center;
 }
 
-section .image {
+.carousel .image {
     padding-top: 15px;
     width: 75%;
     height: 60%;
 }
 
+.tittle {
+    color: #434343;
+    font-size: 35px;
+    text-shadow: -3px 3px 6px gray ;
+}
+
+.cards {
+    color: #434343;
+}
+
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card a {
+    color: #434343;
+    background-color: #C2AE9F;
+}
 
 nav {
     text-shadow: -3px 2px 3px gray ;
