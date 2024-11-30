@@ -73,54 +73,13 @@
             </div>
         </nav>
         <section>
-            <div class="tittle text-center py-3">
-                CARRITO DE COMPRAS
-            </div>
-            <div class="card-group col-12">
-                <div class="card border-0 col-lg-2 col-md-12 text-center bg-transparent" >
-                    <div class="card-body">
-                        <h5 class="card-title">Cabello Natural con Micro-Link</h5>
-                        <div class="description col-8 m-auto h-25" style="color: #434343;">
-                            Técnica sin calor ni químicos que utiliza pequeños anillos metálicos.
-                        </div>
-                        <p class="card-text">Precio: $900.000</p>
-                        <img src="images/cards/servicio1.jpg" class="card-img-top shadow rounded">
-                    </div>
-                </div>
-
-                <div class="card border-0 col-lg-2 col-md-12 text-center bg-transparent">
-                    <div class="card-body">
-                        <h5 class="card-title">Cabello con Cinta Adhesiva</h5>
-                        <div class="description col-8 m-auto h-25" style="color: #434343;">
-                            Método rápido y menos invasivo, que utiliza tiras adhesivas.
-                        </div>
-                        <p class="card-text">Precio: $700.000</p>
-                        <img src="images/cards/servicio2.jpg" class="card-img-top shadow rounded">
-                    </div>
-                </div>
-
-                <div class="card border-0 col-lg-2 col-md-12 text-center bg-transparent">
-                    <div class="card-body">
-                        <h5 class="card-title">Cosidas (Trenzado y Cosiendo)</h5>
-                        <div class="description col-8 m-auto h-25" style="color: #434343;">
-                            Las extensiones se cosen sobre trenzas base del cabello natural.
-                        </div>
-                        <p class="card-text">Precio: $500.000</p>
-                        <img src="images/cards/servicio3.jpg" class="card-img-top shadow rounded">
-                    </div>
-                </div>
-
-                <div class="card border-0 col-lg-2 col-md-12 text-center bg-transparent" style="margin-bottom: 0;">
-                    <div class="card-body">
-                        <h5 class="card-title">Clip-In (Puesta y Estilizado)</h5>
-                        <div class="description col-8 m-auto h-25" style="color: #434343;">
-                            Extensiones removibles ideales para cambios de look rápidos. 
-                        </div>
-                        <p class="card-text">Precio: $800.000</p>
-                        <img src="images/cards/servicio4.jpg" class="card-img-top shadow rounded">
-                    </div>
-                    
-                </div>
+            <div class="cart-container text-center py-3">
+                <h1>Carrito de Compras</h1>
+                <ul id="cart-list">
+                    <!-- Los productos se agregarán aquí dinámicamente -->
+                </ul>
+                <p class="total">Total: $<span id="total-price">0.00</span></p>
+                <button id="clear-cart">Vaciar Carrito</button>
             </div>
         </section>
         <footer class="text-center">
@@ -128,6 +87,7 @@
                 &copy; 2024 Extensiones de cabello - Todos los derechos reservados
             </div>
         </footer>
+        <script src="js/carrito.js"></script>
     </div>
 </body>
 

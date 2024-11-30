@@ -324,6 +324,54 @@ input[type=text]:placeholder {
     width: 60%;
 }
 
+/* CARRITO DE COMPRAS */
+
+.cart-container h1 {
+    text-shadow: -3px 3px 6px gray;
+    color: #434343;
+}
+
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-container li {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    text-shadow: -3px 3px 6px gray;
+    color: #434343;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-container button {
+    background-color: #C2AE9F;
+    color: #434343;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart-container button:hover {
+    background-color: #d4d1ce;
+}
+
 footer {
     text-shadow: -3px 2px 3px gray;
     background-color: #D3CBC4;
