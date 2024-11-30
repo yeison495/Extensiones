@@ -59,7 +59,7 @@ section {
 }
 
 .card-group {
-    margin-bottom: 100px;
+    margin-bottom: 85px;
 }
 .card img {
     margin-left: auto;
@@ -70,6 +70,15 @@ section {
 .card a {
     color: #434343;
     background-color: #C2AE9F;
+}
+
+.card P {
+    text-shadow: -2px 1px 8px #C2AE9F;
+    color: #886B54;
+}
+
+.description {
+    background-color: #D9D9D9 ;
 }
 
 nav {
