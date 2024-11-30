@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    background-color: #F3EDE7;
     font-family: 'Inter';
     margin: 0;
     margin-bottom: 40px;
@@ -14,6 +15,12 @@ body {
 section {
     background-color: #F3EDE7;
     height: auto;
+}
+
+#page-container {
+    background-color: #F3EDE7;
+    position: relative;
+    min-height: 100vh;
 }
 
 .themed-container {
@@ -49,10 +56,6 @@ section {
     color: #434343;
     font-size: 35px;
     text-shadow: -3px 3px 6px gray ;
-}
-
-.cards {
-    color: #434343;
 }
 
 .card img {
